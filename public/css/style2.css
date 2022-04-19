@@ -1,0 +1,10 @@
+.main-container {
+  background-color: #083579;
+  padding:30px;
+}
+
+h1 {
+  color: #fff;
+  font-size:50px;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+}

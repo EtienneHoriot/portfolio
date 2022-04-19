@@ -1,0 +1,166 @@
+/*Style de la page d'accueil*/
+
+#titre {
+  text-align: center;
+}
+
+.fondBleu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  background-image: url("../medias/fondTriangles.jpg");
+  background-size: cover;
+}
+
+#titre2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+#blocInfo {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  background-image: url("../medias/infographie.webp");
+  background-size: cover;
+  background-color: rgb(194, 8, 85);
+  width: 258px;
+  height: 258px;
+  border-radius: 7px;
+}
+
+#titreBlocInfo {
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(156, 5, 68);
+  width: 258px;
+  height: 44px;
+  line-height: 44px;
+}
+
+#blocPhoto {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  background-image: url("../medias/fleur.webp");
+  background-size: cover;
+  background-color: rgb(58, 226, 17);
+  width: 258px;
+  height: 258px;
+  border-radius: 7px;
+}
+
+#titreBlocPhoto {
+  background-color: rgb(5, 156, 30);
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(5, 156, 30);
+  width: 258px;
+  height: 44px;
+  line-height: 44px;
+}
+
+#blocWeb {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  background-image: url("../medias/web.jpg");
+  background-size: cover;
+  background-color: rgb(226, 177, 17);
+  width: 258px;
+  height: 258px;
+  border-radius: 7px;
+}
+
+#titreBlocWeb {
+  background-color: rgb(187, 107, 3);
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(184, 104, 0);
+  width: 258px;
+  height: 44px;
+  line-height: 44px;
+}
+
+.fondBleuClair {
+  background-color: rgb(2, 122, 221);
+}
+
+#blocPresentation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+#containerBlocContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blocContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: #083579;
+  border-radius: 3px;
+  margin: 20px;
+}
+
+#blocContact:hover {
+  background-color: rgb(184, 104, 0);
+  box-shadow: 5px;
+}
+
+#blocContact:hover a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  background-color: #083579;
+  font-size: 15px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 25px;
+}
+
+.tableau {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin:10px;
+  padding:20px;
+}

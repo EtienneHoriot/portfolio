@@ -1,0 +1,89 @@
+/* STYLE DE BASE */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(233, 191, 2);
+}
+
+a.bloc:hover {
+    color: #fff;
+    box-shadow: 2px 2px 10px 2px
+}
+
+/*Barre de navigation*/
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #083579;
+    height: 50px;
+}
+
+li {
+    font-family: 'Roboto';
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px 10px 20px;
+}
+
+
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 500px) {}
