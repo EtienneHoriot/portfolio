@@ -74,7 +74,7 @@ a.bloc:hover {
 }
 
 li {
-    font-family: 'Roboto';
+    font-family: 'Roboto','Helvetica', 'Arial','Verdana';
     list-style-type: none;
     display: inline;
     padding: 0 20px 10px 20px;

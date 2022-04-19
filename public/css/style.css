@@ -71,7 +71,6 @@
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
-  background-color: rgb(5, 156, 30);
   width: 258px;
   height: 44px;
   line-height: 44px;
@@ -97,7 +96,6 @@
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
-  background-color: rgb(184, 104, 0);
   width: 258px;
   height: 44px;
   line-height: 44px;
@@ -118,7 +116,6 @@
   padding: 40px;
   align-items: center;
   justify-content: center;
-  text-align: justify;
 }
 
 #containerBlocContact {
